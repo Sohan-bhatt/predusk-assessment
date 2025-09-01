@@ -1,17 +1,3 @@
-# app.py
-# ================================================================
-# Mini RAG App — Polished UI + Assessor-friendly Comments
-# ---------------------------------------------------------------
-# What changed vs your original:
-# 1) Visual polish: gradient header, cards, chips, icons, spacing
-# 2) Clear structure: Sidebar (status + actions) / Main (tabs)
-# 3) Chat-like Q&A history with timestamps
-# 4) "Sources" rendered as chips + expandable matching chunks
-# 5) Metrics panel (latency, #chunks, top_k, rerank_n)
-# 6) Debug tab shows raw prompt/context (for assessment)
-# 7) Lots of targeted comments guiding the evaluator
-# ================================================================
-
 import streamlit as st
 import cohere
 from pinecone import Pinecone
