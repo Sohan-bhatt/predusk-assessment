@@ -27,6 +27,7 @@ Upload a document, store its embeddings in Pinecone, and ask questions with sour
 
 ## 📂 Project Structure
 
+```
 project-root/
 │
 ├─ backend/
@@ -37,6 +38,7 @@ project-root/
 │ └─ config.toml # UI theme (colors, fonts)
 │
 └─ README.md
+```
 
 
 
