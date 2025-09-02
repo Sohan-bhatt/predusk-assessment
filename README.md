@@ -48,8 +48,9 @@ project-root/
 
 1. **Clone repo & install deps**
    ```bash
-   git clone <your-repo-url>
-   cd project-root
+   git clone https://github.com/Sohan-bhatt/predusk-assessment.git
+   cd backened
+   Create a virt env.
    pip install -r requirements.txt
 ## Add environment variables
   Create a .env file in project root with:
